@@ -1,0 +1,93 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: hsl(0 0% 0%);
+  --color-foreground: hsl(0 0% 93%);
+  --color-card: hsl(0 0% 0%);
+  --color-card-foreground: hsl(0 0% 93%);
+  --color-popover: hsl(0 0% 0%);
+  --color-popover-foreground: hsl(0 0% 93%);
+  --color-primary: hsl(0 0% 100%);
+  --color-primary-foreground: hsl(0 0% 0%);
+  --color-secondary: hsl(0 0% 15%);
+  --color-secondary-foreground: hsl(0 0% 93%);
+  --color-muted: hsl(0 0% 15%);
+  --color-muted-foreground: hsl(0 0% 65%);
+  --color-accent: hsl(0 0% 15%);
+  --color-accent-foreground: hsl(0 0% 93%);
+  --color-destructive: hsl(0 84% 60%);
+  --color-destructive-foreground: hsl(0 0% 93%);
+  --color-border: hsl(0 0% 20%);
+  --color-input: hsl(0 0% 20%);
+  --color-ring: hsl(0 0% 50%);
+  --radius: 0.5rem;
+}
+
+@layer base {
+  body {
+    background-color: hsl(var(--color-background));
+    color: hsl(var(--color-foreground));
+    font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+  }
+}
+
+@layer components {
+  .prose {
+    @apply text-foreground;
+  }
+  .prose h1,
+  .prose h2,
+  .prose h3,
+  .prose h4,
+  .prose h5,
+  .prose h6 {
+    @apply text-foreground font-semibold mt-6 mb-4;
+  }
+  .prose h1 {
+    @apply text-2xl;
+  }
+  .prose h2 {
+    @apply text-xl;
+  }
+  .prose h3 {
+    @apply text-lg;
+  }
+  .prose p {
+    @apply mb-4 leading-relaxed;
+  }
+  .prose ul,
+  .prose ol {
+    @apply mb-4 ml-6;
+  }
+  .prose ul {
+    @apply list-disc;
+  }
+  .prose ol {
+    @apply list-decimal;
+  }
+  .prose li {
+    @apply mb-2;
+  }
+  .prose a {
+    @apply text-primary hover:underline;
+  }
+  .prose code {
+    @apply bg-muted px-1.5 py-0.5 rounded text-sm font-mono;
+  }
+  .prose pre {
+    @apply bg-muted p-4 rounded overflow-x-auto mb-4;
+  }
+  .prose pre code {
+    @apply bg-transparent p-0;
+  }
+  .prose blockquote {
+    border-left: 4px solid hsl(var(--color-border));
+    @apply pl-4 italic text-muted-foreground mb-4;
+  }
+  .prose strong {
+    @apply font-semibold;
+  }
+  .prose em {
+    @apply italic;
+  }
+}
