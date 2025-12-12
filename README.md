@@ -67,7 +67,7 @@ The system uses five specialized agents, each responsible for a distinct stage:
 
 ### Architecture Diagram
 
-![Architecture Diagram](media/Mermaid%20Chart%20-%20Create%20complex,%20visual%20diagrams%20with%20text.-2025-12-12-165105.png)
+![Architecture Diagram](<media/Mermaid Chart - Create complex, visual diagrams with text.-2025-12-12-165105.png>)
 
 ## How the Agent Pipeline Works
 
@@ -97,35 +97,35 @@ If any agent raises an exception, the job status is updated to `failed`, the err
 
 The following screenshots demonstrate the system in action, showing the complete workflow from job creation to article generation.
 
-![Job Creation](media/Screenshot%202025-12-12%20at%2010.07.45%20PM.png)
+![Job Creation](<media/Screenshot 2025-12-12 at 10.07.45 PM.png>)
 
 Initial job creation interface showing topic input and configuration options.
 
-![SERP Analysis](media/Screenshot%202025-12-12%20at%2010.07.54%20PM.png)
+![SERP Analysis](<media/Screenshot 2025-12-12 at 10.07.54 PM.png>)
 
 SERP analysis results displaying extracted keywords, topics, and search intent analysis.
 
-![Outline Generation](media/Screenshot%202025-12-12%20at%2010.08.07%20PM.png)
+![Outline Generation](<media/Screenshot 2025-12-12 at 10.08.07 PM.png>)
 
 Generated article outline with proper heading hierarchy and section summaries.
 
-![Article Draft](media/Screenshot%202025-12-12%20at%2010.08.28%20PM.png)
+![Article Draft](<media/Screenshot 2025-12-12 at 10.08.28 PM.png>)
 
 Complete article draft with markdown formatting and SEO optimization.
 
-![SEO Metadata](media/Screenshot%202025-12-12%20at%2010.09.19%20PM.png)
+![SEO Metadata](<media/Screenshot 2025-12-12 at 10.09.19 PM.png>)
 
 SEO metadata including title tag, meta description, and keyword analysis.
 
-![Internal Links](media/Screenshot%202025-12-12%20at%2010.09.32%20PM.png)
+![Internal Links](<media/Screenshot 2025-12-12 at 10.09.32 PM.png>)
 
 Suggested internal links with anchor text and target slugs.
 
-![External References](media/Screenshot%202025-12-12%20at%2010.10.00%20PM.png)
+![External References](<media/Screenshot 2025-12-12 at 10.10.00 PM.png>)
 
 External reference citations with context and placement suggestions.
 
-![Structured Data](media/Screenshot%202025-12-12%20at%2010.10.33%20PM.png)
+![Structured Data](<media/Screenshot 2025-12-12 at 10.10.33 PM.png>)
 
 JSON-LD structured data markup for BlogPosting schema.
 
