@@ -1,4 +1,4 @@
-# SEO Article Generation Backend
+# SEO Article Generation Engine
 
 A production-ready FastAPI backend service that generates SEO-optimized, publish-ready articles for any given topic. The system performs comprehensive SERP analysis, extracts keywords and topics, generates structured outlines aligned with search intent, and produces complete articles with SEO metadata, structured data, and strategic linking suggestions.
 
@@ -95,39 +95,31 @@ If any agent raises an exception, the job status is updated to `failed`, the err
 
 ## Working Demo
 
-The following screenshots demonstrate the system in action, showing the complete workflow from job creation to article generation.
+Initial job creation interface showing topic input and configuration options.
 
 ![Job Creation](media/1.png)
 
-Initial job creation interface showing topic input and configuration options.
+SERP Agent
 
 ![SERP Analysis](media/2.png)
 
-SERP analysis results displaying extracted keywords, topics, and search intent analysis.
+SERP Analysis Agent
 
 ![Outline Generation](media/3.png)
 
-Generated article outline with proper heading hierarchy and section summaries.
+Outline Agent
 
 ![Article Draft](media/4.png)
 
-Complete article draft with markdown formatting and SEO optimization.
+Generated Article
 
 ![SEO Metadata](media/5.png)
 
-SEO metadata including title tag, meta description, and keyword analysis.
-
 ![Internal Links](media/6.png)
-
-Suggested internal links with anchor text and target slugs.
 
 ![External References](media/7.png)
 
-External reference citations with context and placement suggestions.
-
 ![Structured Data](media/8.png)
-
-JSON-LD structured data markup for BlogPosting schema.
 
 ## API Documentation
 
@@ -515,15 +507,3 @@ Enhance the link planner with:
 - External link authority scoring (Domain Authority, PageRank)
 - Contextual link placement suggestions within article body
 - Link diversity analysis to avoid over-linking to single domains
-
-## License
-
-MIT License
-
-Copyright (c) 2024
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
