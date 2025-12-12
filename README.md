@@ -97,35 +97,35 @@ If any agent raises an exception, the job status is updated to `failed`, the err
 
 The following screenshots demonstrate the system in action, showing the complete workflow from job creation to article generation.
 
-![Job Creation](<media/Screenshot 2025-12-12 at 10.07.45 PM.png>)
+![Job Creation](media/1.png)
 
 Initial job creation interface showing topic input and configuration options.
 
-![SERP Analysis](<media/Screenshot 2025-12-12 at 10.07.54 PM.png>)
+![SERP Analysis](media/2.png)
 
 SERP analysis results displaying extracted keywords, topics, and search intent analysis.
 
-![Outline Generation](<media/Screenshot 2025-12-12 at 10.08.07 PM.png>)
+![Outline Generation](media/3.png)
 
 Generated article outline with proper heading hierarchy and section summaries.
 
-![Article Draft](<media/Screenshot 2025-12-12 at 10.08.28 PM.png>)
+![Article Draft](media/4.png)
 
 Complete article draft with markdown formatting and SEO optimization.
 
-![SEO Metadata](<media/Screenshot 2025-12-12 at 10.09.19 PM.png>)
+![SEO Metadata](media/5.png)
 
 SEO metadata including title tag, meta description, and keyword analysis.
 
-![Internal Links](<media/Screenshot 2025-12-12 at 10.09.32 PM.png>)
+![Internal Links](media/6.png)
 
 Suggested internal links with anchor text and target slugs.
 
-![External References](<media/Screenshot 2025-12-12 at 10.10.00 PM.png>)
+![External References](media/7.png)
 
 External reference citations with context and placement suggestions.
 
-![Structured Data](<media/Screenshot 2025-12-12 at 10.10.33 PM.png>)
+![Structured Data](media/8.png)
 
 JSON-LD structured data markup for BlogPosting schema.
 
